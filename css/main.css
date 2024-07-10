@@ -1,0 +1,130 @@
+#Home {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.7)
+    ),
+    url(../images/events-heavenly-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sidebar-list {
+  width: 250px;
+  color: white;
+}
+
+ul.list {
+  list-style-type: none;
+}
+
+ul.list li {
+  padding: 20px 0;
+}
+
+ul.list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  transition: color 0.6s;
+}
+
+ul.list a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+.icon-x i:hover {
+  cursor: pointer;
+  color: rgba(214, 46, 51, 0.4);
+}
+
+.icon-x i {
+  transition: color 0.6s;
+}
+
+.open-list-icon {
+  font-size: 30px;
+}
+
+.open-list {
+  cursor: pointer;
+}
+
+.singer-head {
+  background-color: rgba(214, 46, 51, 0.4);
+  color: white;
+  cursor: pointer;
+}
+
+.singer-text {
+  background-color: #cccccc;
+}
+
+#Details {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.7)
+    ),
+    url(../images/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.details-info {
+  width: 80%;
+}
+
+.details-info p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.icon-twiter,
+.icon-facebook,
+.icon-insta,
+.icon-chrome,
+.icon-pinterest {
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.icon-twiter:hover a,
+.icon-facebook:hover a,
+.icon-insta:hover a,
+.icon-chrome:hover a,
+.icon-pinterest:hover a {
+  background-color: rgba(214, 46, 51, 0.4);
+  color: white;
+  cursor: pointer;
+}
+
+.no-active-singer {
+  display: none;
+}
+
+/* .open-list {
+  left: 250px;
+} */
+
+.sidebar-list {
+  margin-left: -250px;
+}
+
+.contact-social-icon a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .details-info {
+    width: 100%;
+  }
+}
